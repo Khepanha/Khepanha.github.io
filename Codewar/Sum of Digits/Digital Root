@@ -1,0 +1,11 @@
+function digital_root(n) {
+var a,b=0;
+while (n>=10)
+  {
+    a=n%10;
+    b=n/10;
+    b=Math.floor(b);
+    n=b+a;
+  }
+return n;
+}
