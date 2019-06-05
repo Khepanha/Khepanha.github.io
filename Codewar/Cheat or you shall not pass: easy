@@ -1,0 +1,5 @@
+int solution()
+{
+ srand(0);//srand use to stop the random task. We can add any number in the bracket between 0 to 1000.
+ return 383;
+}
