@@ -1,9 +1,0 @@
-function createPhoneNumber(num){
-  var arr="";
-    for (var i=0;i<num.length;i++)
-    {
-        arr+=num[i];
-    }
-    arr="("+arr.slice(0,3)+")"+" "+arr.slice(3,6)+"-"+arr.slice(6,10);
-    return arr;
-}
