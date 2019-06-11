@@ -1,0 +1,15 @@
+const binaryArrayToNumber = arr => {
+//   var res=0;
+//   for(var i=0; i<arr.length; i++){
+//   if(arr[i]==1){
+//   res+=1*Math.pow(2,arr.length-i);
+//   }
+//   }
+//   return res;
+//   }
+ var ans=0;
+for(var i=0; i<arr.length; i++){
+  ans += arr[i]*Math.pow(2,arr.length-i);
+}
+return ans/2;
+};
