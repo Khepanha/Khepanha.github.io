@@ -1,0 +1,5 @@
+function tailSwap(arr) {
+  return String(arr)
+    .replace(/(.+:)(.+),(.+:)(.+)/, '$1$4,$3$2')
+    .split(',');
+}
