@@ -1,0 +1,17 @@
+function findE(str){
+  var a=0,b;
+  if (str=='')
+    return '';
+  for (var i=0;i<str.length;i++)
+  {
+    b=str[i].charCodeAt(str[i]);
+    if (b==69 || b==101)
+      a+=1;
+    if (b!=69 || b!=101)
+      continue;
+  }
+  if (a==0)
+    return 'There is no "e".';
+  else
+    return a.toString();
+}
