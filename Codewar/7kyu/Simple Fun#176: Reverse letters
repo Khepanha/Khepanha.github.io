@@ -1,0 +1,11 @@
+def reverse_letter(string):
+    empty_str = ""
+    x = list(''.join(string))
+    rev=""
+    for ele in x:
+        if ord(ele) >= 65 and ord(ele) <= 90 or ord(ele) >=97 and ord(ele)<=122:
+            empty_str = empty_str + ele      
+        else :
+            continue
+        rev=empty_str[::-1]
+    return rev  
