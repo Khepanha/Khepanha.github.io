@@ -1,0 +1,17 @@
+function printerError(s) {
+var err=0,err1;
+    for (var i=0;i<s.length;i++)
+    {
+      if (s.charCodeAt(i)>109)
+      {
+        err+=1;
+      }
+      else
+      {
+        err+=0;
+      }
+    }
+    err1 = err + "/" + s.length;
+    err1 = err1.toString();
+    return err1;
+}
