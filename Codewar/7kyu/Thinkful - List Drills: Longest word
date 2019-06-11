@@ -1,0 +1,9 @@
+function longest(words) {
+var arr=[];
+  for (var i=0;i<words.length;i++)
+  {
+    arr.push(words[i].length);
+  }
+  arr=Math.max(...arr);
+  return arr ;
+}
