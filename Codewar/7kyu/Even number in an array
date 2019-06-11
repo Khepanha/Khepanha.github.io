@@ -1,0 +1,13 @@
+function evenNumbers(array, number) {
+  var a=[];
+  var j=0;
+  for(var i=array.length;i>=0;i--){
+  if(array[i]%2==0){
+  a[j]=array[i];
+  j++;
+  }
+  }
+  var b = a.slice(array[i],number);
+  b=b.reverse();
+  return b;
+}
