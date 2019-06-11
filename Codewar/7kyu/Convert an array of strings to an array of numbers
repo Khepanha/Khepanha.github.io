@@ -1,0 +1,9 @@
+function toNumberArray(StrArr){
+var arr=[];
+ for (var i=0;i<StrArr.length;i++)
+ {
+   StrArr[i]=parseFloat(StrArr[i]);
+   arr.push(StrArr[i]);
+ }
+ return arr;
+}
